@@ -80,6 +80,7 @@ ScoreCard <- function(cutdatx,trainWOE,p=20/log(2),q=600-20*log(15)/log(2)){
   
   result$Score = Score
   result$ScoreCard = bind_cols(cutdatx,trainWOE)
+  result$coeff = (glmfit$coefficients)
   
   result
   

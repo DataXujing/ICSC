@@ -52,4 +52,5 @@ NingXin,WangQianQian,DataXujing
 ScoreCard(cutdatx,trainWOE,p=20/log2,q=600-20*log(15)/log2)
 # we obtain a list,you can use ScoreCard$Score(a vector),and 
 # ScoreCard$ScoreCord(a tibble) to see the result
+# the coefficients of the model(a vector)
 }
