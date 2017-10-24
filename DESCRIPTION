@@ -1,0 +1,9 @@
+Package: ICSC
+Type: Package
+Title: ICSC
+Version: 0.1.0
+Author: NingXin,WangQianQian,DataXujing
+Maintainer:  <dataanalysis@inter-credict-mail.com>
+Description: A R Packages to do Score Card in Inter credict, for Taian branch.
+License: GPL (>= 2)
+LazyData: TRUE
