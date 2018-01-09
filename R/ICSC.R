@@ -28,7 +28,7 @@ CutX <- function(X,CutDat=CutDat){
       cutdatX[paste0('cutx',i)] = assign(paste0('cutx',i),cut(X[,i],CutDat[[i]]))
     
     else
-      cutdatX[paste0('cutx',i)]=assign(paste0('cutx',i),ordered(X[,i],levels=1:31))
+      cutdatX[paste0('cutx',i)]=assign(paste0('cutx',i),X[,i])
     
   }
   
